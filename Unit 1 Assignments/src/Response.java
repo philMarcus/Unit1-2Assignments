@@ -15,19 +15,19 @@ public class Response {
 	
 	// construct the response for a given code and secretcode.
 	//Code and secretcode should be the same length.
-	public Response(Code guess, Code secretCode) {
-		len = guess.getLength();
-		boolean[] matched = new boolean[len];
-		for (int i=0; i < len; i++) {
-	
-			//
-			//
-			// TODO later in units 3 and 4!!!!
-			//
-			//
-			
-		}
-	}
+//	public Response(Code guess, Code secretCode) {
+//		len = guess.getLength();
+//		boolean[] matched = new boolean[len];
+//		for (int i=0; i < len; i++) {
+//	
+//			//
+//			//
+//			// TODO later in units 3 and 4!!!!
+//			//
+//			//
+//			
+//		}
+//	}
 	
 	//an empty response of numEmpty pins
 	public Response(int numEmpty) {
@@ -40,6 +40,7 @@ public class Response {
 		numBlack = b;
 		numWhite = w;
 		len = l;
+	}
 	
 	
 	public int getNumBlack() {
